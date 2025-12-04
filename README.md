@@ -1,9 +1,9 @@
 pin descriptions 
-/seed protection module
+---seed protection module---
 trigPin = 2
 echoPin = 3
 buzzerPin = A1
-//nav module
+----nav module---
 motor1Pin1 = 8    // IN1 - Left motor pin 1
 motor1Pin2 = 9    // IN2 - Left motor pin 2
 motor2Pin1 = 10   // IN3 - Right motor pin 1
