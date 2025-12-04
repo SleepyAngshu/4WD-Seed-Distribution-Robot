@@ -16,3 +16,7 @@ const int DRY_VALUE = 1023;          // dry reading
 const int WET_VALUE = 0;             // wet reading
 const int MOISTURE_THRESHOLD = 20;    // percentage threshold to trigger
 const int MOTOR_SPEED = 150;         // PWM speed (0-255)
+---Servo module---
+Servo hookServo;      // pin 12, start 180°, "lower" to 120°
+Servo flapperServo;   // pin 4,  start 180°, "lower" to 120°
+Servo dispenserServo; // pin 13, idle 0°,   "dispense" 0<->90 oscillation
